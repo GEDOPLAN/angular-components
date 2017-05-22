@@ -19,7 +19,7 @@ const routes: Routes = [
   { component: TemplateOutletComponent, path: 'template-outlet' },
   { component: TemplateRefComponent, path: 'template-ref' },
   { component: ViewContainerRefComponent, path: 'viewcontainer' },
-  { component: EmbeddedViewComponent, path: 'embedded' }
+  { component: EmbeddedViewComponent, path: 'embedded' },
 ]
 
 @NgModule({

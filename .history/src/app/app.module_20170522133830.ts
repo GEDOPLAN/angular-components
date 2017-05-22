@@ -13,13 +13,13 @@ import { ViewContainerRefComponent } from './view-container-ref/view-container-r
 import { EmbeddedViewComponent } from './embedded-view/embedded-view.component';
 
 
-const routes: Routes = [
-  { component: HomeComponent, path: '' },
-  { component: InsertChildrenComponent, path: 'children' },
-  { component: TemplateOutletComponent, path: 'template-outlet' },
-  { component: TemplateRefComponent, path: 'template-ref' },
-  { component: ViewContainerRefComponent, path: 'viewcontainer' },
-  { component: EmbeddedViewComponent, path: 'embedded' }
+const routes:Routes=[
+  {component: HomeComponent, path:''},
+  {component: InsertChildrenComponent, path:'children'},
+  {component: TemplateOutletComponent, path:'template-outlet'},
+  {component: TemplateRefComponent, path:'template-ref'},
+  {component: HomeComponent, path:''},
+  {component: HomeComponent, path:''},
 ]
 
 @NgModule({
