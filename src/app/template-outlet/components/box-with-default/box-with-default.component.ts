@@ -13,6 +13,7 @@ export class BoxWithDefaultComponent implements OnInit {
   @ContentChild(TemplateRef)
   footerTemplate: TemplateRef<any>;
 
+
   constructor() { }
 
   ngOnInit() {
