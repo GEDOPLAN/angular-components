@@ -1,0 +1,10 @@
+.box div{
+    border: 1px solid black;
+    padding: 1em;
+    margin: 2em;
+}
+
+.box{
+    background-color: #E6E6E6;
+    padding: 2em;
+}

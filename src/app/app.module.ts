@@ -11,6 +11,9 @@ import { TemplateOutletComponent } from './template-outlet/template-outlet.compo
 import { TemplateRefComponent } from './template-ref/template-ref.component';
 import { ViewContainerRefComponent } from './view-container-ref/view-container-ref.component';
 import { EmbeddedViewComponent } from './embedded-view/embedded-view.component';
+import { BoxComponent } from './insert-children/components/box/box.component';
+import { BoxHeaderDirective } from './insert-children/components/box-header.directive';
+import { BoxWithDefaultComponent } from './template-outlet/components/box-with-default/box-with-default.component';
 
 
 const routes: Routes = [
@@ -30,7 +33,10 @@ const routes: Routes = [
     TemplateOutletComponent,
     TemplateRefComponent,
     ViewContainerRefComponent,
-    EmbeddedViewComponent
+    EmbeddedViewComponent,
+    BoxComponent,
+    BoxHeaderDirective,
+    BoxWithDefaultComponent
   ],
   imports: [
     BrowserModule,
