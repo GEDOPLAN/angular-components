@@ -1,0 +1,17 @@
+<div class="container">
+  <div *ngIf="!userTemplate">
+    <div class="col-sm-12 col-md-4" *ngFor="let e of elements">
+      <div class="box-container">
+        <div class="header">{{e.title}}</div>
+        <div class="body">
+          {{e.text}}
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div *ngIf="userTemplate">
+  <ng-template ngFor [ngForOf]="elements" [ngForTemplate]="userTemplate">
+  </ng-template>
+</div>

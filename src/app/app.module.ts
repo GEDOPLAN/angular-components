@@ -14,6 +14,7 @@ import { EmbeddedViewComponent } from './embedded-view/embedded-view.component';
 import { BoxComponent } from './insert-children/components/box/box.component';
 import { BoxHeaderDirective } from './insert-children/components/box-header.directive';
 import { BoxWithDefaultComponent } from './template-outlet/components/box-with-default/box-with-default.component';
+import { EntriesBoxComponent } from './template-ref/components/entries-box/entries-box.component';
 
 
 const routes: Routes = [
@@ -36,7 +37,8 @@ const routes: Routes = [
     EmbeddedViewComponent,
     BoxComponent,
     BoxHeaderDirective,
-    BoxWithDefaultComponent
+    BoxWithDefaultComponent,
+    EntriesBoxComponent
   ],
   imports: [
     BrowserModule,
@@ -45,6 +47,7 @@ const routes: Routes = [
     RouterModule.forRoot(routes)
   ],
   providers: [],
+  entryComponents: [BoxWithDefaultComponent],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

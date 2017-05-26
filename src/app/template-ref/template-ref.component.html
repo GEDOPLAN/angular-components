@@ -1,3 +1,9 @@
-<p>
-  template-ref works!
-</p>
+<app-entries-box [elements]="elements"></app-entries-box>
+
+<app-entries-box [elements]="elements">
+  <ng-template let-entry>
+    <ul>
+      <li><a (click)='alert(entry)'>{{entry.title}}</a></li>
+    </ul>
+  </ng-template>
+</app-entries-box>

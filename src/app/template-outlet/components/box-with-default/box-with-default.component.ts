@@ -10,9 +10,8 @@ export class BoxWithDefaultComponent implements OnInit {
   @Input()
   title: string;
 
-  @ContentChild(TemplateRef)
+  @ContentChild("footer")
   footerTemplate: TemplateRef<any>;
-
 
   constructor() { }
 
