@@ -7,6 +7,11 @@ import { Component, OnInit } from '@angular/core';
 })
 export class EmbeddedViewComponent implements OnInit {
 
+  news=[
+    'News Nummer 1, ganz frisch rein gekomen',
+    'News Nummer 2, schon ein bisschen älter'
+  ]
+
   constructor() { }
 
   ngOnInit() {

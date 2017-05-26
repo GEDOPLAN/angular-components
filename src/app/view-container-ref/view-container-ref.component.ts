@@ -18,12 +18,12 @@ export class ViewContainerRefComponent {
     this.boxFactory = r.resolveComponentFactory(BoxWithDefaultComponent);
   }
 
-  ngAfterViewInit(){
-    let box1=this.content.createComponent(this.boxFactory);
-    box1.instance.title="Dynamic (1)";
+  ngAfterViewInit() {
+    let box1 = this.content.createComponent(this.boxFactory);
+    box1.instance.title = "Dynamic (1)";
 
-    let box2=this.content.createComponent(this.boxFactory);
-    box2.instance.title="Dynamic (2)";
+    let box2 = this.content.createComponent(this.boxFactory);
+    box2.instance.title = "Dynamic (2)";
   }
 
 }

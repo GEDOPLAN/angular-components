@@ -1,3 +1,8 @@
-<p>
-  embedded-view works!
-</p>
+News:
+<ng-template [appNewsRepeat]="news" let-entry="params">
+  <div>
+    <div><h1>{{entry.title}}</h1></div>
+    <hr/>
+    <div>{{entry.text}}</div>
+  </div>
+</ng-template>

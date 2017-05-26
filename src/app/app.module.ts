@@ -15,6 +15,7 @@ import { BoxComponent } from './insert-children/components/box/box.component';
 import { BoxHeaderDirective } from './insert-children/components/box-header.directive';
 import { BoxWithDefaultComponent } from './template-outlet/components/box-with-default/box-with-default.component';
 import { EntriesBoxComponent } from './template-ref/components/entries-box/entries-box.component';
+import { NewsRepeatDirective } from './embedded-view/components/news-repeat.directive';
 
 
 const routes: Routes = [
@@ -38,7 +39,8 @@ const routes: Routes = [
     BoxComponent,
     BoxHeaderDirective,
     BoxWithDefaultComponent,
-    EntriesBoxComponent
+    EntriesBoxComponent,
+    NewsRepeatDirective
   ],
   imports: [
     BrowserModule,
