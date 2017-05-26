@@ -5,8 +5,16 @@ Demo-Projekt zum Blog [GEDOPLAN](https://javaeeblog.wordpress.com/?p=3537)
 Thema: Angular Komponenten
 Inhalt:
 
-  - insert
+  - ngContent
+  - ngTemplateOutlet
+  - ngTemplateRef
+  - ViewContainer
+  - ComponentFactoryResolver
+  - ComponentFactory
+  - createEmbeddedView
+  - createComponent
+
 
 ## Development server
 
-Starten per `ng serve` URL: `http://localhost:4200/`. T
+Starten per `ng serve` URL: `http://localhost:4200/`. 
